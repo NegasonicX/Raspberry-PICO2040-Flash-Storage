@@ -23,7 +23,7 @@ int *pico_flash_read(long int FLASH_TARGET_OFFSET, size_t len)
         stored_value[i] = flash_target_contents[i];
     }
 
-    return stored_value;
+    return stored_value;                                                                                //++ Returns the pointer pointing to the array
 }
 
 
@@ -42,7 +42,7 @@ int pico_flash_write(long int FLASH_TARGET_OFFSET, uint32_t flash_data[], size_t
     
     stored_value = pico_flash_read(FLASH_TARGET_OFFSET, num);
 
-    if (strcmp(stored_value,flash_data)==0)
+    if (strcmp(stored_value,flash_data)==0)                                                             //++ Compares the stored and written data 
         {
             printf(GREEN "\n COMMIT SUCCESSFULL \n" RESET);
             return "OK";
