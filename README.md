@@ -20,7 +20,7 @@ The Following C Coded Library is used to perform Flash Write, Read and Erase fun
 
 # Conclusion:
 * Currently, only 32-bit integers can be stored in the pico flash.
-* You do have to declare and include all the varaiables as shown in the main.c
+* You do have to declare all the varaiables to be stored in flash as shown in the main.c
 * I hope you all like it :-D
 
 # Reference Material:
