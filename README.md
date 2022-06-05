@@ -10,7 +10,7 @@ The Following C Coded Library is used to perform Flash Write, Read and Erase fun
 # Understading the Flow:
 * This code is developed for rp2040 on Embedded C Language.
 * rp2040 doesn't much resources over the internet to use flash in a simple way and the only option available was a library on Arduino IDE.
-* The following library is completed made on C Language and very simple to use.
+* The following library is completely made on C Language and very simple to use.
 * A Simple example is available in the main.c with necessary comments on each line of code for better understanding.
 * There are 3 functions to perform Read, Write and Erase of pico Flash :
   * pico_flash_read()  ---> Performs Flash Read
